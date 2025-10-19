@@ -6,7 +6,7 @@ document.getElementById('form')
 
         btn.value = 'Überprüfen...';
 
-        const serviceID = 'sservice_wnxev1l';
+        const serviceID = 'service_wnxev1l';
         const templateID = 'template_b81dpkg';
 
         emailjs.sendForm(serviceID, templateID, this)
@@ -56,4 +56,5 @@ inputPlaceholder.forEach((input) => {
         this.classList.toggle("input-border-color");
         console.log("clicked");
     });
+
 });
